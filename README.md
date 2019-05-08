@@ -20,18 +20,27 @@ App/      # → Root folder for the project
 
 ## Installing eslint and eslint-config-airbnb
 
-- Install eslint plugin for vscode
+ESLint is the one of the most widely-used linting tools in web development. It’s an invaluable tool for keeping the team’s code consistent by ensuring everyone is following the same style conventions.
 
-  `yarn add eslint -D`
+This project comes with preconfigured `ESLint` and `Prettier` settings that increase productivity and ensure code consistensy. Only thing a developer will need to manually do is copy the `vscode` settings to their code editor's `settings.json` file.
 
-- Install prettier plugin via vscode plugin.
+#### What the config does
+
+- Lints JavaScript based on the latest Airbnb standards
+- Fixes issues and formatting errors with Prettier on every save
+- Lints + Fixes React via eslint-config-airbnb
+
+### Setup
+
+- Install prettier plugin for VS Code Editor.
 
 - VS Code user settings
 
-  - On the VS Code menu head over to : `Code > Preferences > Settings`
+  - After installing `Prettier`, on the VS Code menu head over to : `Code > Preferences > Settings`
   - On the top right corner of your editor click the `{}` to open the `settings.json` file for VS Code
 
 - Add following lines to VS Code user settings
+
 - ```bash
 
     "editor.formatOnSave": true,
@@ -61,3 +70,5 @@ App/      # → Root folder for the project
 ```
 
 ```
+
+Start Coding!
