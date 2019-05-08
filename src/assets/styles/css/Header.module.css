@@ -1,0 +1,7 @@
+.headerStyles {
+  background-color: #5f387b;
+}
+
+.active {
+  color: red !important;
+}
