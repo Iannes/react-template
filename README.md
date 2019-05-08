@@ -1,4 +1,23 @@
-#### Installing eslint and eslint-config-airbnb
+## Recommended Directory Structure
+
+The recommended directory structure for an Amplify project looks like:
+
+````shell
+App/      # → Root folder for the project
+├── public/
+└── src/         # → React App Entry
+    └── ___tests___/
+    └── assets/
+        └── fonts/
+        └── static/
+        └── styles/
+    └── components/
+    └── graphql/
+    └── helpers/
+    └── pages/
+    └── routers/
+
+## Installing eslint and eslint-config-airbnb
 
 - Install eslint plugin for vscode
 
@@ -36,7 +55,7 @@
       "javascript",
       "javascriptreact"
   ],
-  ```
+````
 
 ```
 
