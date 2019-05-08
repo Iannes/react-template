@@ -58,9 +58,6 @@ App/      # → Root folder for the project
   ],
   ```
 
-````
-
 ```
 
 ```
-````
