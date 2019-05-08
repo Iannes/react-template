@@ -2,7 +2,7 @@
 
 The recommended directory structure for an Amplify project looks like:
 
-````shell
+```shell
 App/      # → Root folder for the project
 ├── public/
 └── src/         # → React App Entry
@@ -16,6 +16,7 @@ App/      # → Root folder for the project
     └── helpers/
     └── pages/
     └── routers/
+```
 
 ## Installing eslint and eslint-config-airbnb
 
@@ -55,8 +56,11 @@ App/      # → Root folder for the project
       "javascript",
       "javascriptreact"
   ],
+  ```
+
 ````
 
 ```
 
 ```
+````
