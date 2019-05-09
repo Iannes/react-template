@@ -1,0 +1,16 @@
+type WeddingBudget @model {
+  id: ID
+  targetBudget: Int
+  totalBooked: Int
+  numberOfGuests: String
+  items: [Item] @connection(name: "WeddingBudgetItems")
+}
+
+type Item @model {
+  id: ID
+  category: String
+  name: String
+  estimatedAmount: Int
+  totalAmount: Int
+  budget: WeddingBudget! @connection(name: "WeddingBudgetItems")
+}

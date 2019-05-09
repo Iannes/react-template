@@ -39,9 +39,9 @@ This project comes with preconfigured `ESLint` and `Prettier` settings that incr
   - After installing `Prettier`, on the VS Code menu head over to : `Code > Preferences > Settings`
   - On the top right corner of your editor click the `{}` to open the `settings.json` file for VS Code
 
-- Add following lines to VS Code user settings
+* Add following lines to VS Code user settings
 
-- ```bash
+* ```bash
 
     "editor.formatOnSave": true,
 
@@ -66,9 +66,5 @@ This project comes with preconfigured `ESLint` and `Prettier` settings that incr
       "javascriptreact"
   ],
   ```
-
-```
-
-```
 
 Start Coding!

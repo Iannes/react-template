@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
-import Header from './Layouts/Header';
-import Footer from './Layouts/Footer';
+// import Header from './Layouts/Header';
+import MenuAppBar from './Layouts/MenuAppBar';
 
 export const App = () => {
   return (
     <Fragment>
-      <Header />
+      <MenuAppBar />
       {/* <Budget /> */}
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   );
 };

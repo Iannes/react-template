@@ -1,7 +1,25 @@
-.headerStyles {
-  background-color: #5f387b;
+:root {
+  --primary-bg-color: #5f387b;
+  --primary-text-color: white;
+  --secondary-bg-color: brown;
+  --secondary-text-color: brown;
+  --font-size-tablet: 22px;
+  --font-size-mobile: 16px;
 }
 
-.active {
-  color: red !important;
+.headerStyles {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-size: var(--font-size-mobile) !important;
 }
+
+h5,
+h6 {
+  font-size: var(--font-size-mobile) !important;
+}
+
+/* @media (max-width: 600px) {
+  .headerStyles {
+    color: var(--primary-text-color);
+  }
+} */
