@@ -1,0 +1,16 @@
+projects:
+  prettier:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        graphQLApiId: b6qdjxvxwze6jif3halrhdxfie
+      endpoints:
+        prod: >-
+          https://7ljvkrda5na6bd5m5zlpt7gbv4.appsync-api.eu-west-1.amazonaws.com/graphql

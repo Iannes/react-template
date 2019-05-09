@@ -4,9 +4,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+import { BudgetProvider } from './mocks/store';
 
+const WithProvider = () => (
+  <BudgetProvider>
+    <App />
+  </BudgetProvider>
+);
 // eslint-disable-next-line no-undef
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<WithProvider />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

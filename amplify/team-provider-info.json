@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "prettier-20190509144511-authRole",
+            "UnauthRoleArn": "arn:aws:iam::598580338870:role/prettier-20190509144511-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::598580338870:role/prettier-20190509144511-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "prettier-20190509144511-deployment",
+            "UnauthRoleName": "prettier-20190509144511-unauthRole",
+            "StackName": "prettier-20190509144511",
+            "StackId": "arn:aws:cloudformation:eu-west-1:598580338870:stack/prettier-20190509144511/aa9fd860-7260-11e9-b5c6-0a678be70e04"
+        }
+    }
+}
